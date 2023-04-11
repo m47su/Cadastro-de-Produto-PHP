@@ -11,10 +11,10 @@
         echo "Os valores não podem ser vazios";
     }else{
         $update_prod = $pdo->prepare("UPDATE produtos set 
-        nome_produto = :name_prod, 
-        qtd_produto = :qtd_prod, 
-        valor_produto = :valor_prod, 
-        cat_produto = :cat_prod WHERE 
+        name_prod = :name_prod, 
+        qtd_prod = :qtd_prod, 
+        valor_prod = :valor_prod, 
+        cat_prod = :cat_prod WHERE 
         id_produto = :id_prod;");
     
 

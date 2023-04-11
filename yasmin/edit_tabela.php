@@ -28,25 +28,25 @@
                 <div class="form-group offset-md-3">
                     <div class="col-md-6">
                         <label for="">Nome do Produto: </label>
-                        <input type="text" name="name_prod" id="" class="form-control" value=<?php echo $rowTable[0]['nome_produto']?>>
+                        <input type="text" name="name_prod" id="" class="form-control" value=<?php echo $rowTable[0]['name_prod']?>>
                     </div>
                 </div>
                 <div class="form-group offset-md-3">
                     <div class="col-md-6">
                         <label for="">Quantidade do Produto: </label>
-                        <input type="text" name="qtd_prod" id="" class="form-control" value=<?php echo $rowTable[0]['qtd_produto']?>>
+                        <input type="text" name="qtd_prod" id="" class="form-control" value=<?php echo $rowTable[0]['qtd_prod']?>>
                     </div>
                 </div>
                 <div class="form-group offset-md-3">
                     <div class="col-md-6">
                         <label for="">Valor do Produto: </label>
-                        <input type="text" name="valor_prod" id="" class="form-control" value=<?php echo $rowTable[0]['valor_produto']?>>
+                        <input type="text" name="valor_prod" id="" class="form-control" value=<?php echo $rowTable[0]['valor_prod']?>>
                     </div>
                 </div>
                 <div class="form-group offset-md-3">
                     <div class="col-md-6">
                         <label for="">Categoria do Produto: </label>
-                        <input type="text" name="cat_prod" id="" class="form-control" value=<?php echo $rowTable[0]['cat_produto']?>>
+                        <input type="text" name="cat_prod" id="" class="form-control" value=<?php echo $rowTable[0]['cat_prod']?>>
                     </div>
                 </div>
                 <br>
